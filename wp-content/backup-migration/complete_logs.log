@@ -1,0 +1,44 @@
+[2023-01-08 11:42:01] [LOG] Creating backup 
+[2023-01-08 11:42:01] [LOG] Found 495 files to backup.
+[2023-01-08 11:42:01] [LOG] New backup created and its name is: BM_Backup_2023-01-08_11_42_00_qGhHDJQZx68d0ivR.zip
+[2023-01-08 11:47:51] [ERROR] Shuted down
+[2023-01-08 11:47:51] [ERROR] Array
+(
+    [type] => 8192
+    [message] => Directive 'track_errors' is deprecated
+    [file] => Unknown
+    [line] => 0
+)
+
+[2023-01-08 11:47:51] [ERROR] There was an error before request shutdown (but it was not logged to backup/restore log)
+[2023-01-08 11:47:51] [ERROR] Error message: Directive 'track_errors' is deprecated
+[2023-01-08 11:47:51] [ERROR] Error file/line: Unknown|0
+[2023-01-08 23:37:40] [LOG] Sending notification about backup being late
+[2023-01-08 23:37:40] [ERROR] Could not send the email notification about that fail
+[2023-01-08 23:37:40] [LOG] Displaying some issues about email sending...
+[2023-01-08 23:37:40] [LOG] Displaying some issues about email sending...
+[2023-01-08 23:37:40] [LOG] Backup failed to run on proper time, but running now.
+[2023-01-08 23:37:40] [LOG] Planned time: 2023-01-08 22:00:00
+[2023-01-08 23:37:40] [LOG] Sending notification about backup being late
+[2023-01-08 23:37:40] [LOG] Disallowing to send mail as today we already sent one.
+[2023-01-08 23:37:40] [LOG] Displaying some issues about email sending...
+[2023-01-08 23:37:40] [LOG] Automatic backup called at time: 2023-01-08, 23:37:40
+[2023-01-08 23:37:40] [LOG] Creating backup 
+[2023-01-08 23:37:40] [LOG] Found 615 files to backup.
+[2023-01-08 23:53:09] [LOG] New backup created and its name is: BM_Backup_2023-01-08_23_37_40_ZljoBVwui4bRhfTg.zip
+[2023-01-08 23:53:09] [LOG] Automatic backup successed: BM_Backup_2023-01-08_23_37_40_ZljoBVwui4bRhfTg.zip
+[2023-01-12 07:37:45] [LOG] Sending notification about backup being late
+[2023-01-12 07:37:45] [ERROR] Could not send the email notification about that fail
+[2023-01-12 07:37:45] [LOG] Displaying some issues about email sending...
+[2023-01-12 07:37:45] [LOG] Displaying some issues about email sending...
+[2023-01-12 07:37:46] [LOG] Backup failed to run on proper time, but running now.
+[2023-01-12 07:37:46] [LOG] Planned time: 2023-01-09 22:00:00
+[2023-01-12 07:37:46] [LOG] Sending notification about backup being late
+[2023-01-12 07:37:46] [LOG] Disallowing to send mail as today we already sent one.
+[2023-01-12 07:37:46] [LOG] Displaying some issues about email sending...
+[2023-01-12 07:37:46] [LOG] Automatic backup called at time: 2023-01-12, 07:37:46
+[2023-01-12 07:37:47] [LOG] Creating backup 
+[2023-01-12 07:37:47] [LOG] Found 12620 files to backup.
+[2023-01-12 07:37:53] [LOG] New backup created and its name is: BM_Backup_2023-01-12_07_37_46_n7WRBr1wCUqbyo9s.zip
+[2023-01-12 07:37:53] [LOG] Automatic backup successed: BM_Backup_2023-01-12_07_37_46_n7WRBr1wCUqbyo9s.zip
+[2023-01-12 07:37:54] [LOG] Removing backup due to keep rules: BM_Backup_2023-01-08_23_37_40_ZljoBVwui4bRhfTg.zip

@@ -1,0 +1,15 @@
+2023-01-12T07:37:59+00:00 ERROR Incorrect response from Mailchimp API with: stdClass Object
+(
+    [code] => mailchimp-error
+    [message] => A MailChimp error has occurred.
+    [data] => stdClass Object
+        (
+            [type] => https://mailchimp.com/developer/marketing/docs/errors/
+            [title] => User Disabled
+            [status] => 403
+            [detail] => This account has been deactivated.
+            [instance] => 66d50e2b-fd6b-b6ad-7547-ef9624665da9
+        )
+
+)
+

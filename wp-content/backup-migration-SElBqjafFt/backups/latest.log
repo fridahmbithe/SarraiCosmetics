@@ -1,0 +1,173 @@
+[STEP] [2023-01-12 07:37:46] Looking for PHP CLI executable file.
+[WARN] [2023-01-12 07:37:46] Could not find proper PHP CLI executable, this process may be unstable.
+[WARN] [2023-01-12 07:37:46] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2023-01-12 07:37:46] Initializing backup...
+[INFO] [2023-01-12 07:37:46] Backup & Migration version: 1.2.7
+[INFO] [2023-01-12 07:37:46] Site which will be backed up: http://localhost/wordpress
+[INFO] [2023-01-12 07:37:46] PHP Version: 7.2.34
+[INFO] [2023-01-12 07:37:46] WP Version: 6.1.1
+[INFO] [2023-01-12 07:37:46] MySQL Version: 5.5.5
+[INFO] [2023-01-12 07:37:46] MySQL Max Length: 1048576
+[INFO] [2023-01-12 07:37:46] Web server: Apache/2.4.46 (Unix) OpenSSL/1.1.1h PHP/7.2.34 mod_perl/2.0.11 Perl/v5.32.0
+[INFO] [2023-01-12 07:37:46] Max execution time (in seconds): 259200
+[INFO] [2023-01-12 07:37:46] Max rows per query (this site): 2000
+[INFO] [2023-01-12 07:37:46] Checking if backup dir is writable...
+[INFO] [2023-01-12 07:37:46] Initializing custom error handler
+[SUCCESS] [2023-01-12 07:37:46] Yup it is writable...
+[STEP] [2023-01-12 07:37:46] Scanning files...
+[STEP] [2023-01-12 07:37:47] Checking free space, reserving...
+[INFO] [2023-01-12 07:37:47] Requires at least 207741735 bytes. [198.12 MB]
+[INFO] [2023-01-12 07:37:47] Disk free space function is not disabled - using it...
+[INFO] [2023-01-12 07:37:47] Checking this path/partition: /Applications/XAMPP/xamppfiles/htdocs/wordpress/wp-content/backup-migration-SElBqjafFt/backups
+[SUCCESS] [2023-01-12 07:37:47] There is 25,815.43 MB free. [25.21 GB]
+[SUCCESS] [2023-01-12 07:37:47] Great! We have enough space.
+[SUCCESS] [2023-01-12 07:37:47] Confirmed, there is more than enough space, checked: 207741735 bytes
+[INFO] [2023-01-12 07:37:47] Scanning done - found 12620 files...
+[SUCCESS] [2023-01-12 07:37:47] Backup initialized...
+[STEP] [2023-01-12 07:37:47] Initializing archiving system...
+[SUCCESS] [2023-01-12 07:37:47] Archive system initialized...
+[STEP] [2023-01-12 07:37:47] Preparing map of files...
+[SUCCESS] [2023-01-12 07:37:47] Files prepared.
+[INFO] [2023-01-12 07:37:47] Starting compression process...
+[STEP] [2023-01-12 07:37:47] Smart memory calculation...
+[INFO] [2023-01-12 07:37:47] There is 512 MBs of memory to use
+[INFO] [2023-01-12 07:37:47] WordPress memory limit: 512 MBs
+[SUCCESS] [2023-01-12 07:37:47] Setting the safe limit to 115 MB
+[INFO] [2023-01-12 07:37:47] Using PclZip module to create the backup
+[INFO] [2023-01-12 07:37:47] Legacy setting: Using default modules depending on user server
+[STEP] [2023-01-12 07:37:47] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2023-01-12 07:37:47] Iterating database...
+[INFO] [2023-01-12 07:37:47] Memory usage after initialization: 63.49 MB
+[INFO] [2023-01-12 07:37:47] Scan found 47 tables (1173 rows), estimated total size: 5.4 MB.
+[INFO] [2023-01-12 07:37:47] Memory usage after getting table names: 63.51 MB 
+[INFO] [2023-01-12 07:37:47] Getting table recipes...
+[INFO] [2023-01-12 07:37:47] Table recipes have been exported.
+[INFO] [2023-01-12 07:37:47] Memory usage after loading recipes: 63.54 MB 
+[INFO] [2023-01-12 07:37:47] Saving recipes...
+[INFO] [2023-01-12 07:37:47] Recipes saved.
+[INFO] [2023-01-12 07:37:47] Memory usage after recipe off-load: 63.52 MB
+[INFO] [2023-01-12 07:37:47] Exporting table data...
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_actionscheduler_actions (1/47, 0.13 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_actionscheduler_actions finished (0.00136s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_actionscheduler_claims (2/47, 0.03 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_actionscheduler_claims is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_actionscheduler_groups (3/47, 0.03 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_actionscheduler_groups finished (0.00028s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_actionscheduler_logs (4/47, 0.05 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_actionscheduler_logs finished (0.00126s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_commentmeta (5/47, 0.05 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_commentmeta is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_comments (6/47, 0.11 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_comments finished (0.00036s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_e_events (7/47, 0.03 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_e_events finished (0.00050s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_links (8/47, 0.03 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_links is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_options (9/47, 3.08 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_options finished (0.03904s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_postmeta (10/47, 0.09 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_postmeta finished (0.00447s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_posts (11/47, 0.16 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_posts finished (0.00826s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_term_relationships (12/47, 0.03 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_term_relationships finished (0.00033s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_term_taxonomy (13/47, 0.05 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_term_taxonomy finished (0.00060s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_termmeta (14/47, 0.05 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_termmeta finished (0.00030s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_terms (15/47, 0.05 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_terms finished (0.00055s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_usermeta (16/47, 0.05 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_usermeta finished (0.00065s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_users (17/47, 0.06 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_users finished (0.00024s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_admin_note_actions (18/47, 0.03 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_wc_admin_note_actions finished (0.00174s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_admin_notes (19/47, 0.05 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_wc_admin_notes finished (0.00253s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_category_lookup (20/47, 0.02 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_wc_category_lookup finished (0.00023s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_customer_lookup (21/47, 0.05 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_wc_customer_lookup is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_download_log (22/47, 0.05 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_wc_download_log is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_order_coupon_lookup (23/47, 0.05 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_wc_order_coupon_lookup is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_order_product_lookup (24/47, 0.08 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_wc_order_product_lookup is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_order_stats (25/47, 0.06 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_wc_order_stats is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_order_tax_lookup (26/47, 0.05 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_wc_order_tax_lookup is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_product_attributes_lookup (27/47, 0.03 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_wc_product_attributes_lookup finished (0.00024s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_product_download_directories (28/47, 0.03 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_wc_product_download_directories finished (0.00021s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_product_meta_lookup (29/47, 0.11 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_wc_product_meta_lookup finished (0.00042s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_rate_limits (30/47, 0.03 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_wc_rate_limits is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_reserved_stock (31/47, 0.02 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_wc_reserved_stock is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_tax_rate_classes (32/47, 0.03 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_wc_tax_rate_classes finished (0.00022s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_wc_webhooks (33/47, 0.03 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_wc_webhooks is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_api_keys (34/47, 0.05 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_woocommerce_api_keys is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_attribute_taxonomies (35/47, 0.03 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_woocommerce_attribute_taxonomies finished (0.00020s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_downloadable_product_permissions (36/47, 0.08 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_woocommerce_downloadable_product_permissions is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_log (37/47, 0.03 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_woocommerce_log is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_order_itemmeta (38/47, 0.05 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_woocommerce_order_itemmeta is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_order_items (39/47, 0.03 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_woocommerce_order_items is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_payment_tokenmeta (40/47, 0.05 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_woocommerce_payment_tokenmeta is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_payment_tokens (41/47, 0.03 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_woocommerce_payment_tokens is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_sessions (42/47, 0.03 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_woocommerce_sessions finished (0.00021s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_shipping_zone_locations (43/47, 0.05 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_woocommerce_shipping_zone_locations finished (0.00019s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_shipping_zone_methods (44/47, 0.02 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_woocommerce_shipping_zone_methods finished (0.00018s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_shipping_zones (45/47, 0.02 MB)
+[SUCCESS] [2023-01-12 07:37:47] Table export for: wp_woocommerce_shipping_zones finished (0.00017s)
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_tax_rate_locations (46/47, 0.05 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_woocommerce_tax_rate_locations is empty, saving only recipe.
+[STEP] [2023-01-12 07:37:47] Getting data of table: wp_woocommerce_tax_rates (47/47, 0.08 MB)
+[INFO] [2023-01-12 07:37:47] Table wp_woocommerce_tax_rates is empty, saving only recipe.
+[INFO] [2023-01-12 07:37:47] Table data exported.
+[INFO] [2023-01-12 07:37:47] Memory usage after data export: 63.50 MB
+[INFO] [2023-01-12 07:37:47] Entire process took: 0.1073 s
+[SUCCESS] [2023-01-12 07:37:47] Database backup finished
+[STEP] [2023-01-12 07:37:47] Making archive
+[INFO] [2023-01-12 07:37:47] Compressing...
+[WARN] [2023-01-12 07:37:47] Backup will run as single-request, may be unstable...
+[STEP] [2023-01-12 07:37:47] Adding database SQL file(s) to the backup file.
+[SUCCESS] [2023-01-12 07:37:47] Database added to the backup successfully.
+[STEP] [2023-01-12 07:37:47] Performing site files backup...
+[INFO] [2023-01-12 07:37:47] Chunks contain 1000 files.
+[INFO] [2023-01-12 07:37:47] Milestone: 1000/12620
+[INFO] [2023-01-12 07:37:47] Milestone: 2000/12620
+[INFO] [2023-01-12 07:37:48] Milestone: 3000/12620
+[INFO] [2023-01-12 07:37:48] Milestone: 4000/12620
+[INFO] [2023-01-12 07:37:48] Milestone: 5000/12620
+[INFO] [2023-01-12 07:37:49] Milestone: 6000/12620
+[INFO] [2023-01-12 07:37:49] Milestone: 7000/12620
+[INFO] [2023-01-12 07:37:49] Milestone: 8000/12620
+[INFO] [2023-01-12 07:37:50] Milestone: 9000/12620
+[INFO] [2023-01-12 07:37:51] Milestone: 10000/12620
+[INFO] [2023-01-12 07:37:51] Milestone: 11000/12620
+[INFO] [2023-01-12 07:37:52] Milestone: 12000/12620
+[INFO] [2023-01-12 07:37:53] Milestone: 12620/12620
+[SUCCESS] [2023-01-12 07:37:53] Compressed 12620 files
+[INFO] [2023-01-12 07:37:53] Archiving of 12620 files took: 6.52s
+[STEP] [2023-01-12 07:37:53] Finalizing backup
+[INFO] [2023-01-12 07:37:53] Adding manifest...
+[STEP] [2023-01-12 07:37:53] Closing files and archives
+[END-CODE] [2023-01-12 07:37:53] #001

@@ -1,0 +1,157 @@
+/* assets/src/admin/styles/icon-pack.scss */
+[class^=getgenie-icon-],
+[class*=" getgenie-icon-"] {
+  font-family: "getgenie" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 14px;
+  text-transform: none;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.getgenie-icon-notes .path1:before {
+  content: "\e915";
+  color: rgb(254, 174, 19);
+  opacity: 0.1;
+}
+.getgenie-icon-notes .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(254, 174, 19);
+}
+.getgenie-icon-notes .path3:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(254, 174, 19);
+}
+.getgenie-icon-close .path1:before {
+  content: "\e918";
+  color: rgb(255, 26, 26);
+  opacity: 0.06;
+}
+.getgenie-icon-close .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 26, 26);
+}
+.getgenie-icon-close .path3:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 26, 26);
+}
+.getgenie-icon-edit-2:before {
+  content: "\e91b";
+}
+.getgenie-icon-edit-3:before {
+  content: "\e91c";
+}
+.getgenie-icon-more-vertical:before {
+  content: "\e91e";
+}
+.getgenie-icon-trash:before {
+  content: "\e91f";
+}
+.getgenie-icon-alert:before {
+  content: "\e920";
+}
+.getgenie-icon-alert-circle:before {
+  content: "\e921";
+}
+.getgenie-icon-arrow_up:before {
+  content: "\e922";
+}
+.getgenie-icon-arrow-left:before {
+  content: "\e923";
+}
+.getgenie-icon-arrow-right:before {
+  content: "\e924";
+}
+.getgenie-icon-arrow-up-left:before {
+  content: "\e925";
+}
+.getgenie-icon-arrow-up-right:before {
+  content: "\e926";
+}
+.getgenie-icon-Arrow:before {
+  content: "\e900";
+}
+.getgenie-icon-arrow_down:before {
+  content: "\e901";
+}
+.getgenie-icon-Arrow_right:before {
+  content: "\e902";
+}
+.getgenie-icon-arrow_up1:before {
+  content: "\e903";
+}
+.getgenie-icon-check:before {
+  content: "\e904";
+}
+.getgenie-icon-close1:before {
+  content: "\e905";
+}
+.getgenie-icon-Competition_icon:before {
+  content: "\e906";
+  color: #422c63;
+}
+.getgenie-icon-CPC_icon:before {
+  content: "\e907";
+  color: #7d7656;
+}
+.getgenie-icon-Dislike:before {
+  content: "\e908";
+}
+.getgenie-icon-Edit:before {
+  content: "\e909";
+}
+.getgenie-icon-icon:before {
+  content: "\e90a";
+  color: #595a62;
+}
+.getgenie-icon-icon_01:before {
+  content: "\e90b";
+  color: #b4b5bd;
+}
+.getgenie-icon-icon_02:before {
+  content: "\e90c";
+  color: #b4b5bd;
+}
+.getgenie-icon-like:before {
+  content: "\e90d";
+}
+.getgenie-icon-meter_icon:before {
+  content: "\e90e";
+  color: #ffffff;
+}
+.getgenie-icon-minus1:before {
+  content: "\e90f";
+}
+.getgenie-icon-notes1 .path1:before {
+  content: "\e910";
+  color: rgb(254, 174, 19);
+  opacity: 0.1;
+}
+.getgenie-icon-notes1 .path2:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(254, 174, 19);
+}
+.getgenie-icon-notes1 .path3:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(254, 174, 19);
+}
+.getgenie-icon-plus:before {
+  content: "\e913";
+}
+.getgenie-icon-Search_icon:before {
+  content: "\e914";
+  color: #1f420f;
+}
+.getgenie-icon-earth:before {
+  content: "\e9c9";
+}

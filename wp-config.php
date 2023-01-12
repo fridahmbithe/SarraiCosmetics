@@ -82,7 +82,7 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
-//testing git commit
+
 
 define('FS_METHOD', 'direct');
 define('FS_CHMOD_DIR',0755);
